@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px;
+    background-color: rgba(109,167,238);
+}
+.container{
+    width: 450px;
+    height: 450px;
+    border-radius: 8px;
+    background-color: white;
+    padding: 40px 30px;
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+.box textarea{
+   height: 100px;
+   padding: 8px 10px;
+   font-size: 18px;
+   outline: none;
+   resize: none;
+   border-radius: 8px;
+   width: 100%;
+   margin-top: 5px;
+}
+
+
+.box textarea::-webkit-scrollbar{
+    display: none;
+}
+
+
+#voiceList,#speak{
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+    height: 42px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#speak{
+    border: none;
+    background-color: rgba(58,129,214,0.8);
+    cursor: pointer;
+    color: white;
+}
+#speak:hover{
+    background-color: rgba(75,136,214);
+}
